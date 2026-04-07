@@ -40,9 +40,9 @@ public class MathApp {
         //variables
         double set_number = -3.8;
         //logic
-        System.out.println(Math.abs(set_number));
+        System.out.println("Absolute value is " + Math.abs(set_number));
 
-        //variables
+
 
 
     }
