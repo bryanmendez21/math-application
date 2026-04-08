@@ -42,6 +42,24 @@ public class MathApp {
         //logic
         System.out.println("Absolute value is " + Math.abs(set_number));
 
+        //variables
+        double random_number = Math.random();
+        //logic
+        System.out.println("chosen number is " + random_number);
 
+        //variables
+        double miliseconds_in_seconds = 1000;
+        double seconds_in_min = 60;
+        double min_in_hour = 60;
+        double hour_in_day = 60;
+        double number_of_days = 24;
+
+
+        //logic
+        double min_in_days = min_in_hour * ( number_of_days * hour_in_day);
+        double miliseconds_in_day = min_in_days * (miliseconds_in_seconds * seconds_in_min);
+        System.out.println("There are " + min_in_days +" in " + number_of_days + " days");
+        //bonus
+        System.out.println("There are " + miliseconds_in_day +" in " + number_of_days + " days");
     }
 }
