@@ -51,7 +51,7 @@ public class MathApp {
         double miliseconds_in_seconds = 1000;
         double seconds_in_min = 60;
         double min_in_hour = 60;
-        double hour_in_day = 60;
+        double hour_in_day = 24;
         double number_of_days = 24;
 
 
@@ -61,5 +61,7 @@ public class MathApp {
         System.out.println("There are " + min_in_days +" in " + number_of_days + " days");
         //bonus
         System.out.println("There are " + miliseconds_in_day +" in " + number_of_days + " days");
+
+
     }
 }
